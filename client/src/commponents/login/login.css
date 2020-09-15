@@ -1,0 +1,56 @@
+.loginOutter{
+    padding: 1rem;
+}
+
+.from{
+    height: 100%;
+    margin-left: 18%;
+    padding: 1rem;
+}
+
+.loginInner input, .loginInner label{
+    display: block;
+    margin-top: 10px;
+}
+
+.logEmail_ span{
+   color: red;
+   font-size: 13px;
+   margin-left: 6px;
+}
+
+.logPassword_ span{
+   color: red;
+   font-size: 13px;
+   margin-left: 6px;
+}
+
+.loginInputEmail, .loginInputPassword{
+    width: 60%;
+    padding: 0.6 rem;
+    font-size: 1.1 rem;
+    height: 20px;
+ 
+ }
+
+ .loginButton{
+    margin-top: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color:#008CBA;
+    padding: 10px 32px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background-color:rgb(46, 186, 201);;
+}
+
+@media screen and (max-width: 800px){
+    .loginInputEmail, .loginInputPassword{
+        height: 23px;
+        margin-bottom: 10px;
+    }
+}

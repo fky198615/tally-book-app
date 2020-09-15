@@ -1,0 +1,146 @@
+.front_body{
+  background-color: skyblue;
+    padding: 6px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+.greeting{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.haveUser{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+} 
+
+.outterFront{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    align-content: center;
+}
+
+ .noUser{
+   display: flex;
+   flex-direction: colum;
+ }
+
+ .buttonArea{
+   display: flex;
+ }
+
+ .logout{
+   background-color: rgb(82, 223, 43);
+   padding: 10px; 
+  font-family: 'Nunito', sans-serif;
+  border-radius: 8px;
+  font-size: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  border: black,3px;
+  box-shadow: rgba(79,209,197,.64);
+   margin-right: 120px; 
+   margin-top: 30px;
+   margin-bottom: 10px;
+ }
+
+.logout:hover, .logout:focus {
+  color: rgb(255, 255, 255);
+  background-color:rgb(82, 223, 43);
+  transform: translateY(-6px);
+}
+
+.addButton{
+  background-color: rgb(43, 220, 223);
+   padding: 10px; 
+  font-family: 'Nunito', sans-serif;
+  border-radius: 8px;
+  font-size: 8px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  border: black,3px;
+  box-shadow: rgba(79,209,197,.64);
+   margin-top: 30px;
+   margin-bottom: 10px;
+   margin-right: 60px; 
+
+}
+
+.addButton:hover, .addButton:focus {
+  color: rgb(255, 255, 255);
+  background-color:rgb(43, 220, 223);
+  transform: translateY(-6px);
+}
+
+.noUser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reminder{
+  margin: 10%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: azure; 
+}
+
+.in{
+  background-color: rgb(137, 27, 216);
+  padding: 20px; 
+  font-family: 'Nunito', sans-serif;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  border: black,3px;
+  box-shadow: rgba(79,209,197,.64);
+  margin-top: 30px;
+  margin-bottom: 10px; 
+  font-weight: bold;
+}
+
+.in:hover, .in:focus {
+  color: rgb(255, 255, 255);
+  background-color:rgb(33, 154, 228);
+  transform: translateY(-6px);
+}
+
+.up{
+  background-color: rgb(43, 220, 223);
+  padding: 20px; 
+  font-family: 'Nunito', sans-serif;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  border: black,3px;
+  box-shadow: rgba(79,209,197,.64);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.up:hover, .up:focus {
+  color: rgb(255, 255, 255);
+  background-color:rgb(43, 220, 223);
+  transform: translateY(-6px);
+}
+
+@media screen and (max-width: 480px) {
+  .logout,.addButton{
+    margin-right: 10px;
+  }
+}

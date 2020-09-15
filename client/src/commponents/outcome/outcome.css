@@ -1,0 +1,133 @@
+.outcomeOuter{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: auto;
+    align-items: center;
+    background-color: seashell;
+    margin-top: 30px;
+    height: auto;
+    border: 1px solid #BFBFBF;
+    box-shadow: 8px 8px 5px #aaaaaa;
+    border-radius: 8px;
+}
+
+.incomeInner{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 10px;
+    border-right: black solid 2px;
+    height:100px;
+    align-items: center;
+}
+
+
+.expenseInner{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 10px;
+    height:100px;
+    align-items: center;
+}
+
+.inComeTitle{
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.income{
+    font-size: 30px;
+    margin-right: 8px;
+    color: teal;
+}
+
+.expeseTitle{
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.expense{
+    font-size: 30px;
+    margin-right: 8px;
+    color: tomato;
+}
+
+
+@media screen and (max-width: 480px) {
+    .inComeTitle{
+        font-size: 8px;
+        margin-right: 6px;
+    }
+    
+    .income{
+        font-size: 9px;
+        margin-right: 6px;
+    }
+    
+    .expeseTitle{
+        
+        font-size: 8px;
+        margin-right: 6px;
+    }
+    
+    .expense{
+        font-size: 9px;
+        margin-right: 6px;
+    }
+
+    .incomeInner{
+        padding: 8px;
+    }
+    
+    
+    .expenseInner{
+        padding: 8px;
+    }
+
+    .outcomeOuter{
+        box-shadow: 3px 3px 2px #aaaaaa;
+    }
+  }
+
+
+  @media screen and (max-width: 321px) {
+    .inComeTitle{
+        font-size: 6px;
+        margin-right: 6px;
+    }
+    
+    .income{
+        font-size: 7px;
+        margin-right: 6px;
+    }
+    
+    .expeseTitle{
+        
+        font-size: 6px;
+        margin-right: 6px;
+    }
+    
+    .expense{
+        font-size: 7px;
+        margin-right: 6px;
+    }
+
+    .incomeInner{
+        padding: 6px;
+    }
+    
+    
+    .expenseInner{
+        padding: 6px;
+    }
+
+    .outcomeOuter{
+        box-shadow: 3px 3px 2px #aaaaaa;
+        padding:10px;
+    }
+
+  }

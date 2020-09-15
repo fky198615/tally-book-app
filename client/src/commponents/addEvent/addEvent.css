@@ -1,0 +1,57 @@
+.outterAdding{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+input, .datePicker{
+    margin-left: 10px;
+}
+
+.event span, .amount span, .dateLabel span{
+    font-size: 10px;
+    color: red;
+}
+
+.dateLabel span{
+    margin-left: 3px;
+}
+
+.addEventButton{
+    margin-top: 20px;
+    margin-left: 20%;
+    border: 2px solid black;
+    text-align: center;
+    background-color:#008CBA;
+    padding: 10px 32px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.addEventButton:hover{
+    background-color:rgb(46, 186, 201);
+}
+
+.inputEvent{
+    width: 60%;
+    padding: 0.3 rem;
+    font-size: 1.1 rem;
+    box-shadow: inset 0px,0px,10px, black;
+}
+
+.inputAmount{
+    box-shadow: inset 0px,0px,10px, black;
+}
+
+.innerAdding{
+    background-color: skyblue;
+    padding: 16rem;
+    margin : 3%;
+    border-radius: 20px;
+}

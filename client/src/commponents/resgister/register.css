@@ -1,0 +1,70 @@
+.register{
+    padding: 1rem;
+}
+
+.submit{
+   
+    height: 100%;
+    margin-left: 18%;
+    padding: 1rem;
+
+}
+
+.submit input, .submit label{
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+.email_  span{
+   color: red;
+   font-size: 13px;
+   margin-left: 6px;
+}
+
+
+
+.password_ span{
+    color: red;
+    font-size: 13px;
+    margin-left: 6px;
+ }
+
+
+
+.comfired_ span{
+    color: red;
+    font-size: 13px;
+    margin-left: 6px;
+ }
+  
+.inputUserName, .inputEmail, .inputPassword, .inputComfired{
+   width: 60%;
+   padding: 0.6 rem;
+   font-size: 1.1 rem;
+   height: 20px;
+
+}
+
+.submitButtion{
+    margin-top: 20px;
+    border: 2px solid black;
+    text-align: center;
+    background-color:#008CBA;
+    padding: 10px 32px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submitButtion:hover{
+    background-color:rgb(46, 186, 201);;
+}
+
+@media screen and (max-width: 800px){
+    .inputUserName, .inputEmail, .inputPassword, .inputComfired{
+        height: 23px;
+        margin-bottom: 10px;
+    }
+}

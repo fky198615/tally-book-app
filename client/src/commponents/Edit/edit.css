@@ -1,0 +1,231 @@
+.outterAdding{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+input, .datePicker{
+    margin-left: 10px;
+}
+
+.event span, .amount span, .dateLabel span{
+    font-size: 10px;
+    color: red;
+}
+
+.dateLabel span{
+    margin-left: 3px;
+}
+
+.addEventButton{
+    margin-top: 20px;
+    margin-left: 20%;
+    border: 2px solid black;
+    text-align: center;
+    background-color:#008CBA;
+    padding: 10px 32px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.addEventButton:hover{
+    background-color:rgb(46, 186, 201);
+}
+
+.inputEvent{
+    width: 60%;
+    padding: 0.3 rem;
+    font-size: 1.1 rem;
+    box-shadow: inset 0px,0px,10px, black;
+}
+
+.inputAmount{
+    box-shadow: inset 0px,0px,10px, black;
+}
+
+.innerAdding{
+    background-color: skyblue;
+    padding: 16rem;
+    margin : 3%;
+    border-radius: 20px;
+}
+
+.changeButton{
+    margin-top: 20px;
+    margin-left: 20%;
+    background-color: rgb(14, 211, 126);
+    border-radius: 8px;
+    color: rgb(225, 46, 46);
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .form-group{
+        margin-top: 10px;
+        margin-left: -130px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .outterAdding{
+        margin-left: -10px; 
+        padding: 0rem;
+    }
+
+    .event , .amount , .dateLabel{
+        font-size: 30px;
+        margin-right: 10%;
+    }
+    
+    .event span , .amount span, .dateLabel span{
+        font-size: 26px;
+        margin-right: 10%;
+    }
+
+    .inputEvent,.inputAmount,.addingFile,.changeButton{
+        width: 200px;
+        margin-left: -1px;
+        margin-top: 10px;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    .addingFile{
+        margin-left: -1px;
+        margin-top: 8px;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    label{
+        font-size: 30px;
+    }
+
+    .changeButton{
+         width: 100px;
+         margin-left: -116px;
+         margin-top: 20px;
+         height: 36px; 
+         font-size: 6px;
+         padding-top: 10px;
+         padding-bottom: 20px;
+    }
+
+    .datePicker{
+        margin-left: -1px;
+        margin-top: 10px;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-left: 18px;
+    }
+
+    .addEventButton{
+        margin-left: -113px;
+        margin-top: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .form-group{
+        margin-top: 10px;
+        margin-left: -130px;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .outterAdding{
+        margin-left: -10px; 
+        padding: 0rem;
+    }
+
+    .event , .amount , .dateLabel{
+        font-size: 30px;
+        margin-right: 10%;
+    }
+    
+    .event span , .amount span, .dateLabel span{
+        font-size: 26px;
+        margin-right: 10%;
+    }
+
+    .inputEvent,.inputAmount,.addingFile,.changeButton{
+        width: 200px;
+        margin-left: -1px;
+        margin-top: 10px;
+        height: 20px;
+        font-size: 20px;
+    }
+
+    .addingFile{
+        padding-top: 20px;
+        padding-bottom: 18px;
+    }
+
+    label{
+        font-size: 30px;
+    }
+
+    .changeButton{
+         width: 100px;
+         margin-left: -116px;
+         margin-top: 20px;
+         height: 56px; 
+         font-size: 6px;
+         padding-top: 10px;
+         padding-bottom: 20px;
+    }
+
+
+    h1{
+        font-size: 30px;
+        margin-left: 18px;
+    }
+
+    .addEventButton{
+        margin-left: -113px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .addingFile{
+        margin-left: -1px;
+        margin-top: 20px;
+    }
+
+    .datePicker{
+        margin-left: -1px;
+        margin-top: 10px;
+    }
+    
+    .event , .amount , .dateLabel{
+        font-size: 20px;
+    }
+
+    .inputEvent,.inputAmount,.addingFile,.changeButton{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .changeButton{
+        height: 50px; 
+        font-size: 13px;
+   }
+
+}

@@ -1,0 +1,38 @@
+.blanceOuter{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 255, 200);
+    border-radius: 8px;
+    align-items: center;
+    padding: 30px;
+    width: auto;
+    height: auto;
+    box-shadow: 8px 8px 5px #aaaaaa;
+    border: 1px solid #BFBFBF;
+}
+
+.balenceTitle{
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.blance{
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .balenceTitle{
+        font-size: 16px;
+    }
+    
+    .blance{
+        font-size: 26px;
+    }
+
+    .blanceOuter{
+        box-shadow: 3px 3px 2px #aaaaaa;
+    }
+  }
