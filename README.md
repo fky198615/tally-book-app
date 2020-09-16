@@ -1,4 +1,4 @@
-1 .MERN stack tally book app.
+1. MERN stack tally book app.
 
 . On the front end, I use React/Redux, CSS for user authenication part. Additionally, I use React, CSS for tally book part.
 
