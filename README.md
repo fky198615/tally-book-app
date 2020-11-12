@@ -1,6 +1,6 @@
 1. MERN stack tally book app.
 
-. On the front end, I use React/Redux, CSS for user authenication part. Additionally, I use React, CSS for tally book part.
+. On the front end, I use React/Redux, CSS, jwt,  for user authenication part. Additionally, I use React, CSS for tally book part.
 
 . On the back end, I use Express.js and MongoDB.
 
